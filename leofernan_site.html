@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Leofernan - Anel Inteligente</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #000814, #001d3d);
+      color: #e0f7ff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.85);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid #00b4d8;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #00b4d8;
+      letter-spacing: 4px;
+    }
+
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #00e0ff;
+    }
+
+    main {
+      padding: 3rem 2rem;
+      flex: 1;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      color: #00e0ff;
+    }
+    .hero p {
+      font-size: 1.3rem;
+      color: #c0eaff;
+      margin-top: 1rem;
+    }
+
+    section {
+      background: rgba(0, 0, 0, 0.3);
+      padding: 2rem;
+      border-radius: 12px;
+      margin-bottom: 3rem;
+      box-shadow: 0 0 25px #00e0ff33;
+    }
+
+    section h3 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #00b4d8;
+      padding-bottom: 0.5rem;
+    }
+
+    ul.features li {
+      margin-bottom: 0.8rem;
+      list-style: none;
+      position: relative;
+      padding-left: 1.2rem;
+    }
+    ul.features li::before {
+      content: "🔹";
+      position: absolute;
+      left: 0;
+      color: #00e0ff;
+    }
+
+    .founder {
+      text-align: center;
+    }
+
+    .founder img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #00b4d8;
+      margin-bottom: 1rem;
+    }
+
+    .founder h4 {
+      font-size: 1.5rem;
+      color: #00b4d8;
+    }
+
+    .founder p {
+      font-size: 1rem;
+      color: #ccc;
+    }
+
+    .contact a, .contact p {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: #00e0ff;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #999;
+      border-top: 1px solid #00b4d8;
+      background-color: rgba(0,0,0,0.85);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LEOFERNAN</h1>
+    <nav>
+      <a href="#home">Início</a>
+      <a href="#features">Funcionalidades</a>
+      <a href="#founder">Fundador</a>
+      <a href="#contact">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <h2>Anel Inteligente do Futuro</h2>
+      <p>
+        O Leofernan é um anel com inteligência artificial, comandos de voz, Bluetooth, projeção holográfica e personalidade única.
+      </p>
+    </section>
+
+    <section id="features">
+      <h3>Funcionalidades</h3>
+      <ul class="features">
+        <li>Assistente pessoal com IA avançada</li>
+        <li>Reconhecimento de comandos de voz complexos</li>
+        <li>Bluetooth offline e seguro</li>
+        <li>Projeção holográfica de informações</li>
+        <li>Estilo moderno, resistente e elegante</li>
+        <li>Interação com personalidade própria</li>
+      </ul>
+    </section>
+
+    <section id="founder" class="founder">
+      <h3>Fundador & CEO</h3>
+      <img src="Imagem WhatsApp 2025-05-17 às 20.53.37_2c00750f.jpg" alt="Leonel Simão Domingos Agostinho" />
+      <h4>Leonel Simão Domingos Agostinho</h4>
+      <p>Criador visionário do projeto Leofernan</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h3>Contato</h3>
+      <p>Email: <a href="mailto:ls8973244@gmail.com">ls8973244@gmail.com</a></p>
+      <p>Email 2: <a href="mailto:leonelagostinhoago6@gmail.com">leonelagostinhoago6@gmail.com</a></p>
+      <p>Instagram: <a href="https://www.instagram.com/leonelagostinho6/" target="_blank">@leonelagostinho6</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Leofernan. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
